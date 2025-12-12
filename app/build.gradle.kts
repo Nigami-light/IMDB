@@ -1,16 +1,18 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.android.application")
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.imdb"
+    namespace = "com.mihailloh.imdb"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.imdb"
+        applicationId = "com.mihailloh.imdb"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -44,4 +46,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(platform("com.google.firebase:firebase-bom:34.6.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }

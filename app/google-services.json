@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023334327348",
+    "project_id": "imdb-f38f6",
+    "storage_bucket": "imdb-f38f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023334327348:android:245616a844565ba2609661",
+        "android_client_info": {
+          "package_name": "com.mihailloh.imdb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG_2K5Zvb3XzbFri1Y5Z-Ln7NAdmb_9gE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

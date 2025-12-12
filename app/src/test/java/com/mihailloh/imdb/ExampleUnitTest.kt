@@ -1,4 +1,4 @@
-package com.example.imdb
+package com.mihailloh.imdb
 
 import org.junit.Test
 

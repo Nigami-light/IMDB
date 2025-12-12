@@ -1,4 +1,4 @@
-package com.example.imdb
+package com.mihailloh.imdb
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
